@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
-gem "jets", git: "git@github.com:tongueroo/jets.git", submodules: true
+# gem "jets", git: "git@github.com:tongueroo/jets.git", submodules: true
+gem "jets", path: "#{ENV['HOME']}/src/tongueroo/jets"
 
 # Include webpacker if you are you are building html pages
 gem "webpacker", git: "git@github.com:tongueroo/webpacker.git"
